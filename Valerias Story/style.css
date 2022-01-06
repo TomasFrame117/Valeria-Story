@@ -1,0 +1,88 @@
+
+
+
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(110deg,#993333 50%, #3e6468 50%);
+   animation: 7s ease-in-out infinite color-change;
+} 
+ @keyframes color-change {
+  0% {
+    background: #993333;
+  }
+  20% {
+    background: rgb(82, 7, 82);
+  }
+  40% {
+    background: #3e6468;
+  }
+  60% {
+    background: rgb(82, 7, 82);
+  }
+  80% {
+    background: rgb(41, 78, 41);
+  }
+  100% {
+    background: teal;
+}
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
+
+.container {
+  text-align: center;
+    box-sizing: border-box;
+    width: 800px;
+  max-width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 2px;
+  background-color: rgba(240, 248, 255, 0.726);
+  font-size: x-large;
+  transition: 5s, ease-in-out text;
+  align-items: center;
+}
+@keyframes text{
+  0%{
+  }
+  50%{
+
+  }
+  100%{
+
+  }
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+    gap: 10px;
+    margin-top: 0;
+    transition: 2s;
+    width: 600PX;
+    justify-content: center;
+}
+
+  .btn {
+    background-color: #cc9e5d(200, 100%, 50%);
+    border: 1px solid hsl(200, 100%, 30%);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: rgb(26, 24, 24);
+    font-size: large;
+    outline: none;
+    width: auto;
+  }
+  
+  .btn:hover {
+    border-color: rgb(160, 110, 77);
+
+  }
+ 
